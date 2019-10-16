@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="PanelSec" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="PanelSec" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="PanelSec">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lblSonOdeme" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="40" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblFaturaTuru" max="32767" attributes="0"/>
+                              <Component id="lblFaturaNo" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblIlkOdeme" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
+                                      <Component id="lblFaturaTutari" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblAdres" min="-2" pref="72" max="-2" attributes="0"/>
+                                      <Component id="lblAbone" min="-2" pref="72" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="txtAdres" alignment="1" pref="150" max="32767" attributes="0"/>
+                      <Component id="txtFaturaNo" alignment="1" max="32767" attributes="0"/>
+                      <Component id="txtFaturaTuru" alignment="1" max="32767" attributes="0"/>
+                      <Component id="txtIlkOdeme" alignment="1" max="32767" attributes="0"/>
+                      <Component id="txtSonOdeme" alignment="1" max="32767" attributes="0"/>
+                      <Component id="txtFaturaTutari" alignment="1" max="32767" attributes="0"/>
+                      <Component id="txtAbone" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                                  <Component id="lblFaturaNoDurum" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="lblFaturaTuruDurum" max="32767" attributes="0"/>
+                              <Component id="lblIlkOdemeDurum" max="32767" attributes="0"/>
+                              <Component id="lblSonOdemeDurum" max="32767" attributes="0"/>
+                              <Component id="lblFaturaTutariDurum" alignment="1" pref="244" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblAdresDurum" min="-2" pref="262" max="-2" attributes="0"/>
+                              <Component id="lblAboneDurum" min="-2" pref="250" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="162" max="-2" attributes="0"/>
+                  <Component id="lblBilgiVer" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                  <Component id="btnKaydet" min="-2" pref="72" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="btnGeri" min="-2" pref="72" max="-2" attributes="0"/>
+                  <EmptySpace pref="100" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblBilgiVer" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnGeri" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnKaydet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblFaturaNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtFaturaNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFaturaNoDurum" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtFaturaTuru" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFaturaTuru" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFaturaTuruDurum" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtIlkOdeme" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblIlkOdeme" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblIlkOdemeDurum" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblSonOdeme" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSonOdeme" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblSonOdemeDurum" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblFaturaTutari" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtFaturaTutari" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFaturaTutariDurum" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblAdres" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtAdres" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAdresDurum" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblAbone" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtAbone" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAboneDurum" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblBilgiVer">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="L&#xfc;tfen Bilgileri Giriniz."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFaturaNo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fatura Numaras&#x131; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFaturaTuru">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fatura T&#xfc;r&#xfc; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblIlkOdeme">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x130;lk &#xd6;deme Tarihi :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSonOdeme">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Son &#xd6;deme Tarihi :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFaturaTutari">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fatura Tutar&#x131;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAdres">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Adres :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAbone">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Abone :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtFaturaNo">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtFaturaTuru">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIlkOdeme">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSonOdeme">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtFaturaTutari">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAdres">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAbone">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnKaydet">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kaydet"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnKaydetActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnGeri">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Geri"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGeriActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFaturaNoDurum">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFaturaTuruDurum">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblIlkOdemeDurum">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSonOdemeDurum">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFaturaTutariDurum">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAdresDurum">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAboneDurum">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
